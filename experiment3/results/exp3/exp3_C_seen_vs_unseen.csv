@@ -1,0 +1,9 @@
+system,AUC seen,AUC unseen,drop (seen − unseen),recall of unseen types,real accepted
+Voice only,0.8419,0.7163,0.1256,0.4703,0.931
+Face only,0.794,0.6196,0.1744,0.4113,0.7642
+Early concat (LR),0.9364,0.7574,0.179,0.4883,0.9189
+Late: mean,0.9264,0.7734,0.153,0.501,0.8571
+Late: max (either says fake),0.9213,0.7802,0.141,0.6304,0.8499
+Late: stacked LR,0.9473,0.7748,0.1725,0.4753,0.9147
+Concat-MLP,0.9361,0.7661,0.17,0.503,0.9158
+Gated + modality dropout,0.9413,0.7823,0.159,0.5298,0.9242

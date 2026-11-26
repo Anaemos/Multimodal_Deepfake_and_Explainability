@@ -1,0 +1,7 @@
+caveat,present,answered_clips,accuracy
+disagree,False,562,0.916
+disagree,True,284,0.732
+weak_face,False,731,0.869
+weak_face,True,115,0.765
+confidence level (answered clips),high,705,0.878
+confidence level (answered clips),medium,141,0.738

@@ -1,0 +1,12 @@
+system,subset,auc,acc,f1,thr,acc_RVRA,acc_RVFA,acc_FVRA,acc_FVFA
+Early concat,face,0.025,0.031,0.027,0.099,0.089,0.063,0.093,0.093
+Early concat,face + transcript,0.016,0.015,0.032,0.089,0.075,0.088,0.046,0.076
+Early concat,transcript,0.024,0.011,0.06,0.034,0.176,0.234,0.147,0.187
+Early concat,voice,0.019,0.032,0.037,0.103,0.05,0.023,0.059,0.036
+Early concat,voice + face,0.015,0.02,0.024,0.148,0.071,0.03,0.199,0.0
+Early concat,voice + face + transcript,0.006,0.027,0.028,0.043,0.022,0.023,0.106,0.015
+Early concat,voice + transcript,0.024,0.027,0.037,0.139,0.036,0.043,0.041,0.0
+Late mean,face + transcript,0.014,0.019,0.028,0.055,0.081,0.105,0.12,0.136
+Late mean,voice + face,0.026,0.038,0.033,0.041,0.077,0.024,0.125,0.02
+Late mean,voice + face + transcript,0.024,0.036,0.037,0.038,0.062,0.049,0.215,0.034
+Late mean,voice + transcript,0.03,0.026,0.036,0.059,0.032,0.039,0.079,0.036

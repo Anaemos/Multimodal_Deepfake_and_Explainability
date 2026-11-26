@@ -1,0 +1,5 @@
+subset,auc,acc,f1,thr,acc_RVRA,acc_RVFA,acc_FVRA,acc_FVFA
+none removed,0.931,0.845,0.831,0.508,0.917,0.952,0.415,0.993
+voice blanked,0.739,0.651,0.661,0.508,0.619,0.396,0.817,0.878
+face blanked,0.826,0.774,0.75,0.508,0.869,0.991,0.108,0.985
+transcript blanked,0.945,0.87,0.86,0.508,0.933,0.985,0.471,0.993

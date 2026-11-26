@@ -1,0 +1,115 @@
+clip_id,category,verdict,explanation,path,clear_1to5,correct_1to5,useful_1to5,comment
+705,RVRA,FAKE,"Verdict: FAKE (confidence: medium; fused score 0.53, cut-off 0.47).
+Evidence: the face looks swapped or generated while the voice looks genuine.
+- Voice model: score 0.32 vs its threshold 0.57, moderately towards real.
+- Face model: score 0.74 vs its threshold 0.69, weakly towards fake.
+Caveats: the voice and face detectors disagree, so the decision rests on averaging two opposing signals.
+Words spoken (ASR, not used in the score): ""So you have to go and get one right now because the good ones they go really fast.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/RealVideo-RealAudio/Caucasian (American)/women/id03605/00048.mp4,,,,
+159,RVRA,REAL,"Verdict: REAL (confidence: high; fused score 0.31, cut-off 0.49).
+Evidence: neither the voice nor the face shows clear signs of manipulation.
+- Voice model: score 0.29 vs its threshold 0.53, moderately towards real.
+- Face model: score 0.32 vs its threshold 0.62, moderately towards real.
+Caveats: a face was located in only 1 of 3 sampled frames, so the face evidence is less reliable.
+Words spoken (ASR, not used in the score): ""came all the way from the Philippines to make these people happy and I hope they'll enjoy it.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/RealVideo-RealAudio/Asian (East)/men/id09053/00005.mp4,,,,
+726,RVRA,REAL,"Verdict: REAL (confidence: medium; fused score 0.40, cut-off 0.49).
+Evidence: neither the voice nor the face shows clear signs of manipulation.
+- Voice model: score 0.41 vs its threshold 0.53, weakly towards real.
+- Face model: score 0.39 vs its threshold 0.62, moderately towards real.
+Words spoken (ASR, not used in the score): ""The way you narrated when I saw the movie I felt I was watching it the second time because that's exactly the way I saw it when he narrated""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/RealVideo-RealAudio/Asian (South)/women/id00149/00284.mp4,,,,
+298,RVRA,FAKE,"Verdict: FAKE (confidence: high; fused score 0.67, cut-off 0.47).
+Evidence: the face looks swapped or generated while the voice looks genuine.
+- Voice model: score 0.34 vs its threshold 0.57, moderately towards real.
+- Face model: score 0.99 vs its threshold 0.69, moderately towards fake.
+Caveats: the voice and face detectors disagree, so the decision rests on averaging two opposing signals.
+Words spoken (ASR, not used in the score): ""And actually, I have a quote to that. It answers your question. I didn't have a chance to use it. Let's pull that up right now. And what I think the undeniable fact is, is that we had the intelligence""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/RealVideo-RealAudio/Caucasian (American)/men/id00052/00015.mp4,,,,
+218,RVRA,REAL,"Verdict: REAL (confidence: medium; fused score 0.35, cut-off 0.44).
+Evidence: neither the voice nor the face shows clear signs of manipulation.
+- Voice model: score 0.37 vs its threshold 0.61, moderately towards real.
+- Face model: score 0.32 vs its threshold 0.44, weakly towards real.
+Words spoken (ASR, not used in the score): ""did a great job in college, you know. And I wanted to compete with the greatest, I mean, the best players in the world.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/RealVideo-RealAudio/African/men/id01597/00005.mp4,,,,
+279,RVFA,UNCERTAIN,"Verdict: UNCERTAIN (confidence: low; fused score 0.52, cut-off 0.49).
+Evidence: the voice looks synthetic or cloned while the face looks genuine.
+- Voice model: score 0.88 vs its threshold 0.53, strongly towards fake.
+- Face model: score 0.17 vs its threshold 0.62, strongly towards real.
+Caveats: the combined score is too close to the decision boundary to call either way; the voice and face detectors disagree, so the decision rests on averaging two opposing signals.
+Words spoken (ASR, not used in the score): ""Yeah. It's a mixture of presenting and modeling on the campaign. I just want to give a note she's the one who Julie Bryant has justified. You know, I was quite a few things going.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/RealVideo-FakeAudio/Caucasian (European)/women/id03716/00040_fake.mp4,,,,
+57,RVFA,FAKE,"Verdict: FAKE (confidence: high; fused score 0.93, cut-off 0.45).
+Evidence: both the voice and the face look manipulated.
+- Voice model: score 1.00 vs its threshold 0.63, strongly towards fake.
+- Face model: score 0.87 vs its threshold 0.56, strongly towards fake.
+Words spoken (ASR, not used in the score): ""Pretty rad. He's a cool cat. What was what I thought was interesting about Michael is the fact that he would take this guy.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/RealVideo-FakeAudio/Caucasian (European)/men/id00282/00268_fake.mp4,,,,
+788,RVFA,FAKE,"Verdict: FAKE (confidence: high; fused score 0.63, cut-off 0.44).
+Evidence: the voice looks synthetic or cloned while the face looks genuine.
+- Voice model: score 0.98 vs its threshold 0.61, strongly towards fake.
+- Face model: score 0.28 vs its threshold 0.44, moderately towards real.
+Caveats: the voice and face detectors disagree, so the decision rests on averaging two opposing signals.
+Words spoken (ASR, not used in the score): ""I really want to come back to explore again and experiencing it.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/RealVideo-FakeAudio/Asian (East)/men/id07338/00003_fake.mp4,,,,
+329,RVFA,FAKE,"Verdict: FAKE (confidence: high; fused score 0.64, cut-off 0.49).
+Evidence: the voice looks synthetic or cloned while the face looks genuine.
+- Voice model: score 0.81 vs its threshold 0.53, moderately towards fake.
+- Face model: score 0.48 vs its threshold 0.62, moderately towards real.
+Caveats: the voice and face detectors disagree, so the decision rests on averaging two opposing signals.
+Words spoken (ASR, not used in the score): ""Very much like from D&D, you know, the moods that will allow me out of the daily marriage to do music.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/RealVideo-FakeAudio/Caucasian (European)/women/id00491/00122_fake.mp4,,,,
+846,RVFA,FAKE,"Verdict: FAKE (confidence: high; fused score 0.59, cut-off 0.44).
+Evidence: the voice looks synthetic or cloned while the face looks genuine.
+- Voice model: score 0.89 vs its threshold 0.61, moderately towards fake.
+- Face model: score 0.30 vs its threshold 0.44, moderately towards real.
+Caveats: the voice and face detectors disagree, so the decision rests on averaging two opposing signals.
+Words spoken (ASR, not used in the score): ""Those students like myself, we never dreamed, I never realized that that great personally going like that could take the time, and we'll have the generosity to something give so much to the next.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/RealVideo-FakeAudio/Asian (East)/men/id04726/00245_fake.mp4,,,,
+581,FVRA,UNCERTAIN,"Verdict: UNCERTAIN (confidence: low; fused score 0.45, cut-off 0.49).
+Evidence: the face looks swapped or generated while the voice looks genuine.
+- Voice model: score 0.25 vs its threshold 0.53, moderately towards real.
+- Face model: score 0.65 vs its threshold 0.62, weakly towards fake.
+Caveats: the combined score is too close to the decision boundary to call either way; the voice and face detectors disagree, so the decision rests on averaging two opposing signals; a face was located in only 2 of 3 sampled frames, so the face evidence is less reliable.
+Words spoken (ASR, not used in the score): ""me I'm a good guy but I'd rather be doing that than standing in front of a judge I'm so sorry for what I""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/FakeVideo-RealAudio/African/men/id01179/00160_id01920_wavtolip.mp4,,,,
+260,FVRA,REAL,"Verdict: REAL (confidence: medium; fused score 0.40, cut-off 0.49).
+Evidence: neither the voice nor the face shows clear signs of manipulation.
+- Voice model: score 0.26 vs its threshold 0.53, moderately towards real.
+- Face model: score 0.55 vs its threshold 0.62, weakly towards real.
+Caveats: a face was located in only 1 of 3 sampled frames, so the face evidence is less reliable.
+Words spoken (ASR, not used in the score): ""a film like this is made with newcomers it's in itself it's a great opportunity not only for""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/FakeVideo-RealAudio/Asian (South)/women/id04927/00013_id06445_wavtolip.mp4,,,,
+40,FVRA,REAL,"Verdict: REAL (confidence: medium; fused score 0.35, cut-off 0.54).
+Evidence: the face looks swapped or generated while the voice looks genuine.
+- Voice model: score 0.00 vs its threshold 0.93, strongly towards real.
+- Face model: score 0.70 vs its threshold 0.46, moderately towards fake.
+Caveats: the voice and face detectors disagree, so the decision rests on averaging two opposing signals; a face was located in only 0 of 3 sampled frames, so the face evidence is less reliable.
+Words spoken (ASR, not used in the score): ""It's not a matter of if you go off the cliff. It's just a matter of wind.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/FakeVideo-RealAudio/African/men/id01170/00021_id01521_wavtolip.mp4,,,,
+733,FVRA,FAKE,"Verdict: FAKE (confidence: high; fused score 0.69, cut-off 0.44).
+Evidence: the face looks swapped or generated while the voice looks genuine.
+- Voice model: score 0.39 vs its threshold 0.61, moderately towards real.
+- Face model: score 0.99 vs its threshold 0.44, strongly towards fake.
+Caveats: the voice and face detectors disagree, so the decision rests on averaging two opposing signals.
+Words spoken (ASR, not used in the score): ""just so romantic and but it's very funny""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/FakeVideo-RealAudio/Caucasian (American)/women/id02464/00002_id00575_iPfJcAJQ84Y.mp4,,,,
+269,FVRA,REAL,"Verdict: REAL (confidence: high; fused score 0.32, cut-off 0.54).
+Evidence: the face looks swapped or generated while the voice looks genuine.
+- Voice model: score 0.01 vs its threshold 0.93, strongly towards real.
+- Face model: score 0.63 vs its threshold 0.46, moderately towards fake.
+Caveats: the voice and face detectors disagree, so the decision rests on averaging two opposing signals; a face was located in only 1 of 3 sampled frames, so the face evidence is less reliable.
+Words spoken (ASR, not used in the score): ""The stock-up players will get more attention, but I get more famous on it.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/FakeVideo-RealAudio/African/men/id01170/00021_id02316_wavtolip.mp4,,,,
+785,FVFA,FAKE,"Verdict: FAKE (confidence: medium; fused score 0.58, cut-off 0.44).
+Evidence: the voice looks synthetic or cloned while the face looks genuine.
+- Voice model: score 0.96 vs its threshold 0.61, strongly towards fake.
+- Face model: score 0.20 vs its threshold 0.44, moderately towards real.
+Caveats: the voice and face detectors disagree, so the decision rests on averaging two opposing signals.
+Words spoken (ASR, not used in the score): ""out of way to unite pull ourselves together and into realize one other thing.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/FakeVideo-FakeAudio/Caucasian (American)/men/id00943/00304_id00945_V-rSeF8o5pc_id04216_wavtolip.mp4,,,,
+749,FVFA,FAKE,"Verdict: FAKE (confidence: high; fused score 0.89, cut-off 0.54).
+Evidence: both the voice and the face look manipulated.
+- Voice model: score 1.00 vs its threshold 0.93, weakly towards fake.
+- Face model: score 0.78 vs its threshold 0.46, strongly towards fake.
+Words spoken (ASR, not used in the score): ""X-17 minutes pretty much guaranteed to be covered in all of the year and say he's over.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/FakeVideo-FakeAudio/Caucasian (American)/men/id00179/00143_id00345_TIsGVOYfvZ8_id00264_wavtolip.mp4,,,,
+854,FVFA,FAKE,"Verdict: FAKE (confidence: high; fused score 0.91, cut-off 0.44).
+Evidence: both the voice and the face look manipulated.
+- Voice model: score 0.85 vs its threshold 0.61, moderately towards fake.
+- Face model: score 0.97 vs its threshold 0.44, strongly towards fake.
+Words spoken (ASR, not used in the score): ""I'm nobody to recommend. I just reached here. I have even today. You're absolutely determined.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/FakeVideo-FakeAudio/Asian (South)/women/id04582/00180_id06445_NWtdqOxEbDY_faceswap_id02310_wavtolip.mp4,,,,
+656,FVFA,FAKE,"Verdict: FAKE (confidence: high; fused score 0.86, cut-off 0.45).
+Evidence: both the voice and the face look manipulated.
+- Voice model: score 0.82 vs its threshold 0.63, moderately towards fake.
+- Face model: score 0.90 vs its threshold 0.56, strongly towards fake.
+Words spoken (ASR, not used in the score): ""Just remaining healthy and training to use the best of your ability will help you be the most prepared for when you get.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/FakeVideo-FakeAudio/Caucasian (European)/women/id00365/00078_id00330_wavtolip.mp4,,,,
+638,FVFA,FAKE,"Verdict: FAKE (confidence: high; fused score 0.88, cut-off 0.44).
+Evidence: both the voice and the face look manipulated.
+- Voice model: score 0.96 vs its threshold 0.61, strongly towards fake.
+- Face model: score 0.80 vs its threshold 0.44, strongly towards fake.
+Caveats: a face was located in only 1 of 3 sampled frames, so the face evidence is less reliable.
+Words spoken (ASR, not used in the score): ""and it takes a lot of.""",/kaggle/input/datasets/shreyaty08/fakeavceleb/FakeAVCeleb_v1.2/FakeAVCeleb_v1.2/FakeVideo-FakeAudio/African/women/id01661/00059_id04939_i4v2cXo9HIQ_id02071_wavtolip.mp4,,,,

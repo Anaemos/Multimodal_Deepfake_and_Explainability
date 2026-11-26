@@ -1,0 +1,9 @@
+,acc,acc,f1,f1,macro_f1,macro_f1,roc_auc,roc_auc,pr_auc,pr_auc
+,mean,std,mean,std,mean,std,mean,std,mean,std
+system,,,,,,,,,,
+Audio only (Wav2Vec2),0.782,0.038,0.762,0.048,0.779,0.04,0.848,0.044,0.887,0.034
+"Image only (CLIP, face crop)",0.745,0.026,0.726,0.038,0.742,0.027,0.803,0.024,0.833,0.019
+Text only (CLIP of ASR),0.591,0.013,0.577,0.026,0.59,0.013,0.633,0.027,0.646,0.052
+Text only (TF-IDF of ASR),0.529,0.026,0.341,0.091,0.485,0.037,0.525,0.04,0.544,0.013
+Audio + Image (early fusion),0.868,0.021,0.86,0.014,0.867,0.02,0.948,0.016,0.956,0.008
+Audio + Image + Text (early fusion),0.85,0.017,0.837,0.015,0.849,0.016,0.927,0.015,0.94,0.007

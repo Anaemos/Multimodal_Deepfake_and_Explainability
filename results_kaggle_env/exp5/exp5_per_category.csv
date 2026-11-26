@@ -1,0 +1,5 @@
+category,clips,accuracy,uncertain
+RVRA,500,0.814,0.154
+RVFA,166,0.958,0.223
+FVRA,166,0.56,0.259
+FVFA,166,0.982,0.03

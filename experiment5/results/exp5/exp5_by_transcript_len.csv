@@ -1,0 +1,5 @@
+transcript_len,clips,accuracy
+empty,0,
+1-5 words,5,1.0
+6-12 words,152,0.875
+>12 words,841,0.867

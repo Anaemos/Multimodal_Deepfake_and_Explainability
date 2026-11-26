@@ -1,0 +1,7 @@
+system,removed,auc_full,auc_without,auc_drop,drop_std,splits_hurt
+Early concat,voice,0.92,0.765,0.155,0.021,5
+Early concat,face,0.92,0.832,0.088,0.02,5
+Early concat,transcript,0.92,0.93,-0.01,0.012,1
+Late mean,voice,0.927,0.802,0.125,0.03,5
+Late mean,face,0.927,0.819,0.108,0.028,5
+Late mean,transcript,0.927,0.941,-0.013,0.006,0

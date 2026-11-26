@@ -1,0 +1,4 @@
+test,accuracy,recall_of_fakes,false_alarm_rate
+voice flag vs audio_fake,0.946,0.991,0.077
+face flag vs video_fake,0.807,0.798,0.189
+exact pattern (none / voice / face / both),0.76,,

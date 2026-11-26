@@ -1,0 +1,7 @@
+,RVRA,RVFA,FVRA,FVFA
+Audio only (Wav2Vec2),0.84,1.0,0.1154,1.0
+"Image only (CLIP, face crop)",0.8267,0.3478,0.9615,0.8667
+Text only (CLIP of ASR),0.5867,0.6957,0.3846,0.6333
+Text only (TF-IDF of ASR),0.8667,0.1739,0.1154,0.2
+Audio + Image (early fusion),0.8667,1.0,0.4615,1.0
+Audio + Image + Text (early fusion),0.88,0.9565,0.4231,0.9667

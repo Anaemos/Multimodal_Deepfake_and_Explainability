@@ -1,0 +1,8 @@
+system,Δ unseen AUC vs early concat,wins
+Voice only,0.019,3/5
+Face only,-0.17,0/5
+Late: mean,0.044,5/5
+Late: max (either says fake),0.048,5/5
+Late: stacked LR,0.006,3/5
+Concat-MLP,-0.004,1/5
+Gated + modality dropout,0.015,4/5

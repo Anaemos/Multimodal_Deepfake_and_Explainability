@@ -1,0 +1,5 @@
+group,n,verdict_lost_when_BLAMED_stream_removed,verdict_lost_when_OTHER_stream_removed
+all FAKE verdicts,430,0.381,0.0
+true type RVFA,125,0.472,0.0
+true type FVRA,76,0.75,0.0
+true type FVFA,158,0.095,0.0

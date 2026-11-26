@@ -1,0 +1,3 @@
+truth,REAL,FAKE,UNCERTAIN
+REAL (true),366,57,77
+FAKE (true),55,358,85

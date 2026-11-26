@@ -1,0 +1,285 @@
+{
+  "clips": 998,
+  "real": 500,
+  "fake": 498,
+  "speakers": 500,
+  "auc_voice": 0.817,
+  "auc_face": 0.746,
+  "auc_fused": 0.9,
+  "coverage": 0.838,
+  "accuracy_answered": 0.866,
+  "accuracy_all_uncertain_as_wrong": 0.725,
+  "uncertain_clips": 162,
+  "classwise": [
+    {
+      "class": "REAL",
+      "support": 500,
+      "predicted": 421,
+      "true_positives": 366,
+      "precision": 0.869,
+      "recall_on_answered": 0.865,
+      "recall_incl_uncertain": 0.732,
+      "f1_on_answered": 0.867,
+      "uncertain": 77
+    },
+    {
+      "class": "FAKE",
+      "support": 498,
+      "predicted": 415,
+      "true_positives": 358,
+      "precision": 0.863,
+      "recall_on_answered": 0.867,
+      "recall_incl_uncertain": 0.719,
+      "f1_on_answered": 0.865,
+      "uncertain": 85
+    }
+  ],
+  "confusion_3way": {
+    "REAL": {
+      "REAL (true)": 366,
+      "FAKE (true)": 55
+    },
+    "FAKE": {
+      "REAL (true)": 57,
+      "FAKE (true)": 358
+    },
+    "UNCERTAIN": {
+      "REAL (true)": 77,
+      "FAKE (true)": 85
+    }
+  },
+  "per_category": [
+    {
+      "category": "RVRA",
+      "meaning": "real video + real audio",
+      "clips": 500,
+      "REAL": 366,
+      "FAKE": 57,
+      "UNCERTAIN": 77,
+      "correct_of_answered": 0.865,
+      "correct_of_all": 0.732
+    },
+    {
+      "category": "RVFA",
+      "meaning": "cloned voice",
+      "clips": 166,
+      "REAL": 1,
+      "FAKE": 128,
+      "UNCERTAIN": 37,
+      "correct_of_answered": 0.992,
+      "correct_of_all": 0.771
+    },
+    {
+      "category": "FVRA",
+      "meaning": "face swap",
+      "clips": 166,
+      "REAL": 54,
+      "FAKE": 69,
+      "UNCERTAIN": 43,
+      "correct_of_answered": 0.561,
+      "correct_of_all": 0.416
+    },
+    {
+      "category": "FVFA",
+      "meaning": "face swap + cloned voice",
+      "clips": 166,
+      "REAL": 0,
+      "FAKE": 161,
+      "UNCERTAIN": 5,
+      "correct_of_answered": 1.0,
+      "correct_of_all": 0.97
+    }
+  ],
+  "sanity": [
+    {
+      "test": "genuine clip (own voice + own face)",
+      "pairs": 500,
+      "REAL": 366,
+      "FAKE": 57,
+      "UNCERTAIN": 77,
+      "expected": "REAL",
+      "share_FAKE": 0.114,
+      "share_REAL": 0.732,
+      "share_UNCERTAIN": 0.154
+    },
+    {
+      "test": "real voice + real face of ANOTHER person (mismatched identity)",
+      "pairs": 500,
+      "REAL": 353,
+      "FAKE": 67,
+      "UNCERTAIN": 80,
+      "expected": "REAL",
+      "share_FAKE": 0.134,
+      "share_REAL": 0.706,
+      "share_UNCERTAIN": 0.16
+    },
+    {
+      "test": "cloned voice + real face",
+      "pairs": 166,
+      "REAL": 1,
+      "FAKE": 126,
+      "UNCERTAIN": 39,
+      "expected": "FAKE",
+      "share_FAKE": 0.759,
+      "share_REAL": 0.006,
+      "share_UNCERTAIN": 0.235
+    },
+    {
+      "test": "real voice + swapped face",
+      "pairs": 500,
+      "REAL": 149,
+      "FAKE": 239,
+      "UNCERTAIN": 112,
+      "expected": "FAKE",
+      "share_FAKE": 0.478,
+      "share_REAL": 0.298,
+      "share_UNCERTAIN": 0.224
+    },
+    {
+      "test": "cloned voice + swapped face",
+      "pairs": 166,
+      "REAL": 0,
+      "FAKE": 159,
+      "UNCERTAIN": 7,
+      "expected": "FAKE",
+      "share_FAKE": 0.958,
+      "share_REAL": 0.0,
+      "share_UNCERTAIN": 0.042
+    }
+  ],
+  "bias_ethnicity": [
+    {
+      "group": "African",
+      "clips": 198,
+      "speakers": 100,
+      "real": 100,
+      "fake": 98,
+      "accuracy_answered": 0.882,
+      "false_alarm_rate": 0.088,
+      "miss_rate": 0.151,
+      "uncertain_rate": 0.227
+    },
+    {
+      "group": "Asian (East)",
+      "clips": 184,
+      "speakers": 100,
+      "real": 100,
+      "fake": 84,
+      "accuracy_answered": 0.816,
+      "false_alarm_rate": 0.165,
+      "miss_rate": 0.209,
+      "uncertain_rate": 0.174
+    },
+    {
+      "group": "Asian (South)",
+      "clips": 203,
+      "speakers": 100,
+      "real": 100,
+      "fake": 103,
+      "accuracy_answered": 0.861,
+      "false_alarm_rate": 0.101,
+      "miss_rate": 0.176,
+      "uncertain_rate": 0.113
+    },
+    {
+      "group": "Caucasian (American)",
+      "clips": 202,
+      "speakers": 100,
+      "real": 100,
+      "fake": 102,
+      "accuracy_answered": 0.874,
+      "false_alarm_rate": 0.212,
+      "miss_rate": 0.046,
+      "uncertain_rate": 0.173
+    },
+    {
+      "group": "Caucasian (European)",
+      "clips": 211,
+      "speakers": 100,
+      "real": 100,
+      "fake": 111,
+      "accuracy_answered": 0.891,
+      "false_alarm_rate": 0.112,
+      "miss_rate": 0.105,
+      "uncertain_rate": 0.128
+    }
+  ],
+  "bias_sex": [
+    {
+      "group": "men",
+      "clips": 521,
+      "speakers": 250,
+      "real": 250,
+      "fake": 271,
+      "accuracy_answered": 0.839,
+      "false_alarm_rate": 0.177,
+      "miss_rate": 0.146,
+      "uncertain_rate": 0.154
+    },
+    {
+      "group": "women",
+      "clips": 477,
+      "speakers": 250,
+      "real": 250,
+      "fake": 227,
+      "accuracy_answered": 0.896,
+      "false_alarm_rate": 0.091,
+      "miss_rate": 0.118,
+      "uncertain_rate": 0.172
+    }
+  ],
+  "difficult_cases": {
+    "wrong": 112,
+    "uncertain": 162,
+    "top_wrong_by_category": {
+      "RVRA": 57,
+      "FVRA": 54,
+      "RVFA": 1
+    },
+    "wrong_with_caveat": 85
+  },
+  "feature_variants": {
+    "Kaggle features (3 frames)": {
+      "voice": [
+        0.824,
+        0.012
+      ],
+      "face": [
+        0.754,
+        0.01
+      ],
+      "fused": [
+        0.909,
+        0.013
+      ]
+    },
+    "Local 8 frames": {
+      "voice": [
+        0.829,
+        0.011
+      ],
+      "face": [
+        0.758,
+        0.016
+      ],
+      "fused": [
+        0.898,
+        0.013
+      ]
+    },
+    "Local 16 frames": {
+      "voice": [
+        0.829,
+        0.011
+      ],
+      "face": [
+        0.756,
+        0.014
+      ],
+      "fused": [
+        0.896,
+        0.01
+      ]
+    }
+  }
+}

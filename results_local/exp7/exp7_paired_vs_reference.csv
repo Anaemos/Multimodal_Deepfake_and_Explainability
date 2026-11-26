@@ -1,0 +1,15 @@
+variant,metric,vs,mean_diff,std,splits_better
+mean 1,face_test_auc,Kaggle 3-frame (reference),-0.026,0.012,0
+mean 1,fused_test_auc,Kaggle 3-frame (reference),-0.007,0.023,1
+mean 3,face_test_auc,Kaggle 3-frame (reference),-0.003,0.011,1
+mean 3,fused_test_auc,Kaggle 3-frame (reference),-0.002,0.007,2
+mean 8,face_test_auc,Kaggle 3-frame (reference),0.024,0.009,5
+mean 8,fused_test_auc,Kaggle 3-frame (reference),0.011,0.008,5
+mean 16,face_test_auc,Kaggle 3-frame (reference),0.017,0.011,4
+mean 16,fused_test_auc,Kaggle 3-frame (reference),0.007,0.007,4
+mean 8 + temporal,face_test_auc,Kaggle 3-frame (reference),-0.03,0.02,0
+mean 8 + temporal,fused_test_auc,Kaggle 3-frame (reference),-0.019,0.019,1
+mean 16 + temporal,face_test_auc,Kaggle 3-frame (reference),-0.005,0.03,2
+mean 16 + temporal,fused_test_auc,Kaggle 3-frame (reference),0.004,0.017,2
+detected-only 16,face_test_auc,Kaggle 3-frame (reference),0.014,0.004,5
+detected-only 16,fused_test_auc,Kaggle 3-frame (reference),0.006,0.006,4

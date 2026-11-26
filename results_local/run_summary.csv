@@ -1,0 +1,8 @@
+exp,script,status,time,missing
+1,02_exp1_baselines.py,OK,10s,
+2,03_exp2_fusion.py,OK,50s,
+3,04_exp3_generalization.py,OK,79s,
+4,05_exp4_ablation.py,OK,13s,
+5,06_exp5_error_analysis.py,OK,4s,
+6,07_exp6_explanations.py,OK,26s,
+7,08_exp7_frames.py,OK,10s,

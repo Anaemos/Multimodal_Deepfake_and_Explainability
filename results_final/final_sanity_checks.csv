@@ -1,0 +1,6 @@
+test,pairs,REAL,FAKE,UNCERTAIN,expected,share_FAKE,share_REAL,share_UNCERTAIN
+genuine clip (own voice + own face),500,366,57,77,REAL,0.114,0.732,0.154
+real voice + real face of ANOTHER person (mismatched identity),500,353,67,80,REAL,0.134,0.706,0.16
+cloned voice + real face,166,1,126,39,FAKE,0.759,0.006,0.235
+real voice + swapped face,500,149,239,112,FAKE,0.478,0.298,0.224
+cloned voice + swapped face,166,0,159,7,FAKE,0.958,0.0,0.042

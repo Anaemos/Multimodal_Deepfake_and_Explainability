@@ -1,0 +1,5 @@
+category,meaning,clips,REAL,FAKE,UNCERTAIN,correct_of_answered,correct_of_all
+RVRA,real video + real audio,500,366,57,77,0.865,0.732
+RVFA,cloned voice,166,1,128,37,0.992,0.771
+FVRA,face swap,166,54,69,43,0.561,0.416
+FVFA,face swap + cloned voice,166,0,161,5,1.0,0.97

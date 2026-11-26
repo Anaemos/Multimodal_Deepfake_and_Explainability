@@ -1,0 +1,6 @@
+group,clips,speakers,real,fake,accuracy_answered,false_alarm_rate,miss_rate,uncertain_rate
+African,198,100,100,98,0.882,0.088,0.151,0.227
+Asian (East),184,100,100,84,0.816,0.165,0.209,0.174
+Asian (South),203,100,100,103,0.861,0.101,0.176,0.113
+Caucasian (American),202,100,100,102,0.874,0.212,0.046,0.173
+Caucasian (European),211,100,100,111,0.891,0.112,0.105,0.128

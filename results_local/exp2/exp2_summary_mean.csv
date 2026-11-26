@@ -1,0 +1,14 @@
+system,acc,f1,roc_auc,acc_vt,acc_RVRA,acc_RVFA,acc_FVRA,acc_FVFA
+Audio only,0.782,0.762,0.848,0.796,0.843,1.0,0.199,0.975
+Image only,0.745,0.726,0.803,0.739,0.792,0.304,0.893,0.877
+Early concat (LR),0.868,0.86,0.948,0.869,0.917,0.97,0.517,0.992
+Late: mean prob,0.856,0.848,0.928,0.854,0.891,0.987,0.523,0.992
+Late: max prob (either says fake),0.825,0.847,0.945,0.864,0.68,1.0,0.921,1.0
+Late: noisy-OR,0.776,0.811,0.944,0.864,0.581,1.0,0.929,1.0
+Late: stacked LR,0.876,0.871,0.942,0.867,0.901,0.973,0.612,0.992
+Concat-MLP,0.859,0.848,0.941,0.87,0.923,1.0,0.402,1.0
+Concat-MLP + modality dropout,0.88,0.868,0.94,0.869,0.952,1.0,0.441,1.0
+Gated fusion,0.876,0.867,0.946,0.878,0.936,1.0,0.473,1.0
+Gated fusion + modality dropout,0.88,0.87,0.937,0.864,0.944,1.0,0.464,1.0
+Cross-attention (image→audio layers),0.853,0.841,0.937,0.858,0.92,0.987,0.412,0.993
+Cross-attention (image→audio layers) + modality dropout,0.864,0.845,0.942,0.865,0.963,0.974,0.343,1.0
